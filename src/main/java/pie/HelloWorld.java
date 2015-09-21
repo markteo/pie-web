@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public class HelloWorld extends HttpServlet {
 
-	private String message = "Hello World";
+	private String message = "GG World";
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
