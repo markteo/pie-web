@@ -19,5 +19,9 @@ public class HelloWorld extends HttpServlet {
 
 		PrintWriter out = response.getWriter();
 		out.println("<h1>" + message + "</h1>");
+		
+		//Mark added lines
+		out.println("Hello Worddlld");
 	}
+	
 }
